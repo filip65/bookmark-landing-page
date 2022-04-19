@@ -41,9 +41,9 @@ const CustomCarousel = () => {
         renderButtonGroupOutside={true}
         customButtonGroup={<CarouselButtonGroup />}
       >
-        {data.map((item: CarouselItem) => {
+        {data.map((item: CarouselItem, index: number) => {
           return (
-            <Content>
+            <Content key={index}>
               <ContentImage>
                 <img src={item.image} alt="" />
               </ContentImage>
