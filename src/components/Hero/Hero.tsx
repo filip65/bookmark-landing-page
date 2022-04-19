@@ -1,13 +1,12 @@
 import { HeroWrapper, HeroImage, HeroText, Title } from "./Hero.styles";
-import { Button } from "../../../App.style";
-import heroImage from "../../../images/illustration-features-tab-1.svg";
+import { Button } from "../../App.style";
 
 const Hero = () => {
   return (
     <div>
       <HeroWrapper>
         <HeroImage>
-          <img src={heroImage} alt="hero" />
+          <img src="images/features-1.svg" alt="hero" />
         </HeroImage>
 
         <HeroText>

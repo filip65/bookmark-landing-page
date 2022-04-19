@@ -11,8 +11,8 @@ import {
 
 import { useState } from "react";
 
-import FacebookIcon from "../../../images/icon-facebook.svg";
-import TwitterIcon from "../../../images/icon-twitter.svg";
+import FacebookIcon from "../../images/icon-facebook.svg";
+import TwitterIcon from "../../images/icon-twitter.svg";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

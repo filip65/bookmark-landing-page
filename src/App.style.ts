@@ -21,13 +21,13 @@ export const GlobalStyle = createGlobalStyle`
 
     h1,h2,h3 {
         color: var(--very-dark-blue);
+        font-weight: 500;
     }
 `;
 
 export const Wrapper = styled.div`
   padding-top: 90px;
   width: 100vw;
-  overflow-x: hidden;
 
   @media (min-width: 768px) {
     padding-top: 130px;
@@ -49,6 +49,8 @@ export const Button = styled.a<ButtonProps>`
   transition: 0.3s all;
   border: 2px solid transparent;
   text-align: center;
+  display: block;
+  width: fit-content;
 
   ${(p) =>
     p.primary

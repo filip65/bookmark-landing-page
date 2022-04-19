@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Container } from "../../../App.style";
+import { Container } from "../../App.style";
 
 export const HeroImage = styled.div`
   width: 100%;

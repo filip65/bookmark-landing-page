@@ -1,5 +1,5 @@
-import Carousel from "../../Carousel/Carousel";
 import { FeaturesContainer } from "./FeaturesSection.styles";
+import Carousel from "./Carousel";
 
 const FeaturesSection = () => {
   return (
