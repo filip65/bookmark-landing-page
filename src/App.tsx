@@ -9,7 +9,7 @@ function App() {
       <GlobalStyle />
       <Wrapper className="App">
         <Navbar />
-        {/* <Hero /> */}
+        <Hero />
         <FeaturesSection />
       </Wrapper>
     </>
