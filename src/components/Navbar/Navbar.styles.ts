@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components";
-import { Container } from "../../../App.style";
+import { Container } from "../../App.style";
 
 type NavProps = {
   isOpen: boolean;

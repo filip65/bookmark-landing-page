@@ -1,7 +1,7 @@
-import Navbar from "./components/Header/Navbar/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 import { GlobalStyle, Wrapper } from "./App.style";
-import Hero from "./components/Header/Hero/Hero";
-import FeaturesSection from "./components/Header/FeaturesSection/FeaturesSection";
+import Hero from "./components/Hero/Hero";
+import FeaturesSection from "./components/Features/FeaturesSection";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <GlobalStyle />
       <Wrapper className="App">
         <Navbar />
-        <Hero />
+        {/* <Hero /> */}
         <FeaturesSection />
       </Wrapper>
     </>
